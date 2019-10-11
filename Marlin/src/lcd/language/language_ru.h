@@ -326,8 +326,8 @@
 #define MSG_HEATING_FAILED_LCD              _UxGT("Разогрев не удался")
 #define MSG_HEATING_FAILED_LCD_BED          _UxGT("Неудача нагрева стола")
 #define MSG_ERR_REDUNDANT_TEMP              _UxGT("Ошибка: Избыточная Т")
-#define MSG_THERMAL_RUNAWAY                 _UxGT("УБЕГАНИЕ ТЕПЛА")
-#define MSG_THERMAL_RUNAWAY_BED             _UxGT("УБЕГАНИЕ ТЕПЛА СТОЛА")
+#define MSG_THERMAL_RUNAWAY                 _UxGT("ПОТЕРЯ ТЕПЛА")
+#define MSG_THERMAL_RUNAWAY_BED             _UxGT("ПОТЕРЯ ТЕПЛА СТОЛА")
 // TODO: Heated chamber
 #define MSG_ERR_MAXTEMP                     _UxGT("Ошибка: Т макс.")
 #define MSG_ERR_MINTEMP                     _UxGT("Ошибка: Т мин.")
@@ -379,13 +379,13 @@
   #define MSG_INFO_PRINT_COUNT              _UxGT("Счётчик печати")
   #define MSG_INFO_COMPLETED_PRINTS         _UxGT("Закончено")
   #define MSG_INFO_PRINT_TIME               _UxGT("Общее время печати")
-  #define MSG_INFO_PRINT_LONGEST            _UxGT("Наидольшее задание")
+  #define MSG_INFO_PRINT_LONGEST            _UxGT("Наибольшее значение")
   #define MSG_INFO_PRINT_FILAMENT           _UxGT("Длина филамента")
 #else
   #define MSG_INFO_PRINT_COUNT              _UxGT("Отпечатков")
   #define MSG_INFO_COMPLETED_PRINTS         _UxGT("Закончено")
   #define MSG_INFO_PRINT_TIME               _UxGT("Всего")
-  #define MSG_INFO_PRINT_LONGEST            _UxGT("Наидольшее")
+  #define MSG_INFO_PRINT_LONGEST            _UxGT("Наибольшее")
   #define MSG_INFO_PRINT_FILAMENT           _UxGT("Выдавлено")
 #endif
 #define MSG_INFO_MIN_TEMP                   _UxGT("Мин. Т")
